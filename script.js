@@ -4,10 +4,10 @@ class Rectangle {
 		this.width = width;
 		this.height = height;
 	}
-	get getWidth(){
+	get width(){
 		return this.width;
 	}
-	get getHeight(){
+	get height(){
 		return this.height;
 	}
 	getArea(){
@@ -15,7 +15,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	getPerimeter(){
 		return 2 * this.width * this.height;
 	}
